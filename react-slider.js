@@ -258,8 +258,8 @@
     },
 
     _handleResize: function () {
-      var slider = this.refs.slider.getDOMNode();
-      var handle = this.refs.handle0.getDOMNode();
+      var slider = this.refs.slider;
+      var handle = this.refs.handle0;
       var rect = slider.getBoundingClientRect();
 
       var size = this._sizeKey();
